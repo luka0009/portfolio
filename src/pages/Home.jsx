@@ -12,7 +12,7 @@ export default function Home() {
             Hello, I am Luka Barbakadze
         </div>
       </div> */}
-      <div className="flex flex-wrap justify-center items-center gap-x-2 gap-y-0">
+      <div className="ml-5 scale-[0.95] flex flex-wrap justify-center items-center gap-x-2 gap-y-0">
         <div className="brightness-125 contrast-110 w-[550px] h-[550px]">
           <img
             className="image w-[550px] h-[550px] lg:my-[-45px] md:ml-[-50px] object-contain "

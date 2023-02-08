@@ -1,11 +1,12 @@
 import React from 'react';
 import Typed from "react-typed";
+import '../pages/home.css'
 
 export default function TypedText() {
 
   return (
-    <div className='text-white md:text-[40px] mt-[-60px]'>
-      <Typed 
+    <div className='animate-charcter scale-[0.9] text-white md:text-[40px] mt-[-60px]'>
+      {/* <Typed 
           className='w-[100px]'
           strings={[
             `Hello, I am Luka Barbakadze`
@@ -25,17 +26,11 @@ export default function TypedText() {
           backSpeed={100}
           // loop={1}
           showCursor={true}
-        />
-        {/* <Typed
-          strings={[
-            `<br>Front-End techniques`,
-          ]}
-          startDelay={10000}
-          typeSpeed={150}
-          backSpeed={100}
-          // loop={1}
-          showCursor={true}
         /> */}
+        Hello, I am Luka Barbakadze
+        <br />
+        I'm a Web Developer
+        {/* <span className='animate-pulse'>|</span> */}
     </div>
   )
 }
