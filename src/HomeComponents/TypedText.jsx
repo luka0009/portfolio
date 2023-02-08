@@ -1,5 +1,4 @@
 import React from 'react';
-import Typed from "react-typed";
 import '../pages/home.css'
 
 export default function TypedText() {

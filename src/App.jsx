@@ -1,4 +1,3 @@
-import Typed from "react-typed";
 import "./App.css";
 import Navbar from "./HomeComponents/Navbar";
 import TypedText from "./HomeComponents/TypedText";
