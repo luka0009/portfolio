@@ -1,0 +1,26 @@
+.projects-div {
+  animation: fadeIn 4s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.header-container {
+    animation: rollIn 2s ease-in-out;
+}
+
+@keyframes rollIn {
+  0% {
+    transform: scale(0.5);
+  }
+  
+  50% {
+    transform: scale(1.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
