@@ -20,7 +20,7 @@ export const projects = [
     name: "MERN App - Workout management",
     description:
       "Full stack App MERN App with authentication, front-end is created with react, backend with node.js and express and I'm using MongoDB as a database. You first need to sign up or log in. If you don't want to sign up, You can use this credentials to log in: Email - 'user1@luka.dev', Password: 'MernStack12!'. but you can sign up with any made up email. Then you can use website for workout management.",
-    stack: 'React, Node.js, Express.js, MongoDB, mongoose',  
+    stack: 'React, Node.js, Express.js, MongoDB',  
     website: 'https://mern-workouts-app.vercel.app/',
     code: 'https://github.com/luka0009/MERN---Workouts',
   },
