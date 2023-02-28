@@ -25,6 +25,16 @@ export const projects = [
     code: 'https://github.com/luka0009/MERN---Workouts',
   },
   {
+    id: 102,
+    image: 'https://cdn-icons-png.flaticon.com/512/5900/5900198.png',
+    name: "Book E-commerce website",
+    description:
+      "Description of this application is available on 'about' page of this web app",
+    stack: 'React, Typescript, Bootsrap',  
+    website: 'https://react-ts-bootstrap.vercel.app/',
+    code: 'https://github.com/luka0009/React-ts-bootstrap',
+  },
+  {
     id: 1,
     // image: "https://m.media-amazon.com/images/I/41EpGHYVvkL.png",
     image: chat,
