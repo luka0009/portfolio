@@ -34,7 +34,7 @@ export default function About() {
         </div>
       </div>
       <h1 ref={skillsRef} className="text-center mx-auto text-[44px]">Skills:</h1>
-      <div className="pr-9 mx-auto my-8 w-[600px] grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-x-14 gap-y-5">
+      <div className="pr-9 md:mx-auto my-8 w-[600px] grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 lg:gap-x-14 lg:gap-y-5">
         
         {/* <div className="
         flex justify-center items-center rounded-full w-16 h-16 bg-[#1A0B2E] 

@@ -4,7 +4,7 @@ import '../pages/home.css'
 export default function TypedText() {
 
   return (
-    <div className='animate-charcter scale-[0.9] text-white md:text-[40px] mt-[-60px]'>
+    <div className='animate-charcter scale-[0.9] text-white text-[20px] md:text-[40px] mt-[-60px]'>
       {/* <Typed 
           className='w-[100px]'
           strings={[

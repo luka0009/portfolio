@@ -16,7 +16,7 @@ export default function Project({ project }) {
           onMouseLeave={() => setIsMouseOver(false)}
         >
           <img
-            className={`transition duration-1000 w-[150px] h-[120px] md:w-[250px] md:h-[240px] border-2 p-1 py-3 
+            className={`object-cover transition duration-1000 md:w-[250px] md:h-[240px] border-2 p-1 py-3 
             ${isMouseOver && "opacity-40"} rounded-md`}
             src={project.image}
             alt={project.name}

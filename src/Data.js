@@ -9,10 +9,21 @@ import watches from './assets/projects/watches.png';
 import watch from './assets/projects/watch.png';
 import gallery from './assets/projects/gallery.png';
 import rtk from './assets/projects/rtk.png';
+import fitness from './assets/projects/fitness.png';
 
 export const isNotDeployed = 'Not Yet Deployed';
 
 export const projects = [
+  {
+    id: 101,
+    image: fitness,
+    name: "MERN App - Workout management",
+    description:
+      "Responsive Chat App UI with log in and register pages created with react and scss. Links are shown when you click burger-bar at the top. The app has some  very basic functionalities, for example, when clicking log out you go to log in page and several others, but it is mainly UI project.",
+    stack: 'React, Node.js, Express.js, MongoDB, mongoose',  
+    website: 'https://mern-workouts-app.vercel.app/',
+    code: 'https://github.com/luka0009/MERN---Workouts',
+  },
   {
     id: 1,
     // image: "https://m.media-amazon.com/images/I/41EpGHYVvkL.png",

@@ -85,7 +85,7 @@ export const skills = [
     {
         id: 14,
         image: mongodb,
-        name: "MongoDB",
+        name: "MongoDB/Mongoose",
     },
     {
         id: 15,
