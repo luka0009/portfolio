@@ -3,6 +3,7 @@ import gmail from "./gmail.png";
 import github from "./github.png";
 import phone from "./phone.png";
 import "./about.css";
+import { motion } from "framer-motion";
 
 export default function Contact() {
   const content = "lukabarbakadze18@gmail.com";
@@ -21,19 +22,33 @@ export default function Contact() {
 
   const [index, setIndex] = useState(0);
   const [isCopied, setIsCopied] = useState(false);
+  const [isAnimating, setIsAnimating] = useState(false);
 
   const nextImage = () => {
-    if (index >= 2) {
-      setIndex(-1);
-    }
-    setIndex((index) => index + 1);
+    setIsAnimating(true);
+    setTimeout(() => {
+      if (index >= 2) {
+        setIndex(-1);
+      }
+      setIndex((index) => index + 1);
+    }, [1000]);
+    setTimeout(() => {
+      setIsAnimating(false);
+    }, [1000]);
   };
 
   const prevImage = () => {
-    if (index <= 0) {
-      setIndex(3);
-    }
-    setIndex((index) => index - 1);
+    setIsAnimating(true);
+    setTimeout(() => {
+      if (index <= 0) {
+        setIndex(3);
+      }
+      setIndex((index) => index - 1);
+    }, [1000]);
+
+    setTimeout(() => {
+      setIsAnimating(false);
+    }, [1000]);
   };
 
   const copyToClipboard = (content) => {
@@ -72,7 +87,15 @@ export default function Contact() {
         </div>
       </div> */}
 
-      <div className="mx-auto h-[350px] w-[40vw] flex flex-col items-center justify-center">
+      <motion.div
+        // initial={{ opacity: 1 }}
+        // animate={isAnimating ? { scale: 0.5, x: -50, y: -50, opacity: 0 } : { opacity: 1 }}
+        // transition={{ duration: 1 }}
+        initial={{ opacity: 1 }}
+        animate={isAnimating ? { opacity: 0 } : { opacity: 1 }} // Conditionally set animate property based on isAnimating state
+        transition={{ duration: 1 }}
+        className="mx-auto h-[350px] w-[40vw] flex flex-col items-center justify-center"
+      >
         <div className="z-1 bg-[#1A0B2E] text-blue-600 relative mx-auto p-24 border-2 border-blue-600 h-[250px] w-[40vw] flex items-center justify-center">
           <div className="absolute top-5">
             <span className="z-99 mt-3 text-2xl text-white">
@@ -135,7 +158,7 @@ export default function Contact() {
         <img className="border-4 border-[deeppink] h-[300px] w-[50vw]" src={images[index]} alt="" />
         <button onClick={() => nextImage()} className="text-[40px] m-3">{`>`}</button>
       </div> */}
-      </div>
+      </motion.div>
     </div>
   );
 }
