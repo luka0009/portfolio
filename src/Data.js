@@ -16,6 +16,16 @@ export const isNotDeployed = 'Not Yet Deployed';
 export const projects = [
   {
     id: 101,
+    image: 'https://o.remove.bg/downloads/8421a69c-c04c-437f-95a9-7b2998099e8e/imgbin-inventory-management-software-computer-icons-price-business-business-WmfA8a2KedCML5Fkn9Ues5T6M-removebg-preview.png',
+    name: "Full Stack - Inventory management",
+    description:
+      "This App was part of my MERN stack course. This is a Full-Stack App with authentication feature, front-end is created with react, backend with node.js and express and I'm using MongoDB as a database. You first need to sign up or log in to the app. This App has many features, firstly, you can add products (including image) to the database, then you can edit, delete or view the details of the product, you also have to create a profile when registering and then you can edit your profile too, you can update your name, bio, image and password too. If you don't want to sign up, You can use this credentials to log in(since some products are already added and you can check  how the app works): Email - 'user1@email.io', Password: 'user1password'. but you can sign up with any made up email. Then you can use website for Inventory management.",
+    stack: 'React, Node.js, Express.js, MongoDB',  
+    website: 'https://inv-man-app-front.vercel.app/',
+    code: 'https://github.com/luka0009/Full-Stack-Inventory-Management-App',
+  },
+  {
+    id: 102,
     image: fitness,
     name: "MERN App - Workout management",
     description:
@@ -25,7 +35,7 @@ export const projects = [
     code: 'https://github.com/luka0009/MERN---Workouts',
   },
   {
-    id: 102,
+    id: 103,
     image: 'https://cdn-icons-png.flaticon.com/512/5900/5900198.png',
     name: "Book E-commerce website",
     description:

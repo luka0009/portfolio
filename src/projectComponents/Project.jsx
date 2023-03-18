@@ -1,8 +1,16 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import {useClickAway} from 'react-use';
+
 
 export default function Project({ project }) {
   const [isMouseOver, setIsMouseOver] = useState(false);
   const [isClicked, setIsClicked] = useState(false);
+
+  const ref = useRef(null);
+  useClickAway(ref, () => {
+    setIsClicked(false);
+  });
+
   function clickAlert() {
     alert('\nNot Yet deployed.\n\nCheck out the code on Github.');
   }
@@ -23,12 +31,12 @@ export default function Project({ project }) {
           />
           {isMouseOver && (
             <span className="text-center underline w-full contrast-150 px-4 py-1 cursor-pointer absolute bg-slate-800 text-cyan-500 top-0">
-              {project.website !== 'Not Yet Deployed' ? <a href={project.website}>See Website</a> : <button onClick={clickAlert}>See Website</button>}
+              {project.website !== 'Not Yet Deployed' ? <a target='_blank' href={project.website}>See Website</a> : <button onClick={clickAlert}>See Website</button>}
             </span>
           )}
           {isMouseOver && (
             <span className="text-center underline w-full contrast-150 px-4 py-1 cursor-pointer absolute bg-slate-800 text-cyan-500  bottom-0">
-              <a href={project.code}>Source Code</a>
+              <a href={project.code} target='_blank'>Source Code</a>
             </span>
           )}
           {isMouseOver && (
@@ -40,7 +48,7 @@ export default function Project({ project }) {
             </span>
           )}
           {isClicked && (
-            <div className="text-left text-sm md:text-xl absolute flex flex-col justify-start w-[450px] h-fit z-99 bg-slate-800 text-cyan-500 p-5">
+            <div ref={ref} className="text-left text-sm md:text-xl absolute flex flex-col justify-start w-[450px] h-fit max-h-[480px] overflow-y-auto z-99 bg-slate-800 text-cyan-500 p-5">
               <button
                 onClick={() => {
                   setIsClicked(false);

@@ -128,7 +128,7 @@ export default function Contact() {
             {contents[index] === content1 ? (
               <span>
                 {/* <span className="mr-2">-</span> */}
-                <a className="underline" href="https://github.com/luka0009">
+                <a className="underline" target='_blank' href="https://github.com/luka0009">
                   {contents[index]}
                 </a>
               </span>
