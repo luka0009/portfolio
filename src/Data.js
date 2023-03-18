@@ -16,7 +16,7 @@ export const isNotDeployed = 'Not Yet Deployed';
 export const projects = [
   {
     id: 101,
-    image: 'https://o.remove.bg/downloads/8421a69c-c04c-437f-95a9-7b2998099e8e/imgbin-inventory-management-software-computer-icons-price-business-business-WmfA8a2KedCML5Fkn9Ues5T6M-removebg-preview.png',
+    image: carlist,
     name: "Full Stack - Inventory management",
     description:
       "This App was part of my MERN stack course. This is a Full-Stack App with authentication feature, front-end is created with react, backend with node.js and express and I'm using MongoDB as a database. You first need to sign up or log in to the app. This App has many features, firstly, you can add products (including image) to the database, then you can edit, delete or view the details of the product, you also have to create a profile when registering and then you can edit your profile too, you can update your name, bio, image and password too. If you don't want to sign up, You can use this credentials to log in(since some products are already added and you can check  how the app works): Email - 'user1@email.io', Password: 'user1password'. but you can sign up with any made up email. Then you can use website for Inventory management.",
@@ -85,36 +85,36 @@ export const projects = [
     website: ' https://practice-project-93aa0.web.app/',
     code: 'https://github.com/luka0009/Firebase-Crud-And-Auth',
   },
-  {
-    id: 5,
-    image: userlist,
-    name: "User list management",
-    description:
-      "This is User List management App created with react.JS and Tailwind CSS using Redux Toolkit for state management. This App doesn't use any database, but the results/changes are stored in a localstorage. This is a CRUD app where user can add, update or delete users.",
-    stack: 'React, Tailwind-CSS, Redux-Toolkit',  
-    website: 'https://user-management-liard.vercel.app/',
-    code: 'https://github.com/luka0009/user-management',
-  },
-  {
-    id: 6,
-    image: watch,
-    name: "Watch store",
-    description:
-      " This is a watch store created with html, javasctipt and scss. Watches (images, names) are taken from amazon randomly. You can  search watches by name or filter them based on maximum price.",
-    stack: 'Javascript, SCSS',
-    website: 'https://luka0009.github.io/watch-store/',
-    code: 'https://github.com/luka0009/watch-store',
-  },
-  {
-    id: 7,
-    image: carlist,
-    name: "Car list",
-    description:
-      "website created with react and redux toolkit where, you can add cars (name and price) to the list, delete them if you want or search  any car in the list. There is total cost at the bottom of the list which gets updated each time (either after deleting car or filtering after  search).",
-    stack: 'React, Redux-toolkit',
-    website: ' https://luka0009.github.io/react-cars-list-and-search/',
-    code: 'https://github.com/luka0009/react-cars-list-and-search',
-  },
+  // {
+  //   id: 5,
+  //   image: userlist,
+  //   name: "User list management",
+  //   description:
+  //     "This is User List management App created with react.JS and Tailwind CSS using Redux Toolkit for state management. This App doesn't use any database, but the results/changes are stored in a localstorage. This is a CRUD app where user can add, update or delete users.",
+  //   stack: 'React, Tailwind-CSS, Redux-Toolkit',  
+  //   website: 'https://user-management-liard.vercel.app/',
+  //   code: 'https://github.com/luka0009/user-management',
+  // },
+  // {
+  //   id: 6,
+  //   image: watch,
+  //   name: "Watch store",
+  //   description:
+  //     " This is a watch store created with html, javasctipt and scss. Watches (images, names) are taken from amazon randomly. You can  search watches by name or filter them based on maximum price.",
+  //   stack: 'Javascript, SCSS',
+  //   website: 'https://luka0009.github.io/watch-store/',
+  //   code: 'https://github.com/luka0009/watch-store',
+  // },
+  // {
+  //   id: 7,
+  //   image: carlist,
+  //   name: "Car list",
+  //   description:
+  //     "website created with react and redux toolkit where, you can add cars (name and price) to the list, delete them if you want or search  any car in the list. There is total cost at the bottom of the list which gets updated each time (either after deleting car or filtering after  search).",
+  //   stack: 'React, Redux-toolkit',
+  //   website: ' https://luka0009.github.io/react-cars-list-and-search/',
+  //   code: 'https://github.com/luka0009/react-cars-list-and-search',
+  // },
   {
     id: 8,
     image: gallery,
