@@ -10,6 +10,7 @@ import watch from './assets/projects/watch.png';
 import gallery from './assets/projects/gallery.png';
 import rtk from './assets/projects/rtk.png';
 import fitness from './assets/projects/fitness.png';
+import finances from './assets/projects/finances.png';
 
 export const isNotDeployed = 'Not Yet Deployed';
 
@@ -17,10 +18,10 @@ export const projects = [
   {
     id: 101,
     image: carlist,
-    name: "Full Stack - Inventory management",
+    name: "Advanced Full Stack App",
     description:
-      "This App was part of my MERN stack course. This is a Full-Stack App with authentication feature, front-end is created with react, backend with node.js and express and I'm using MongoDB as a database. You first need to sign up or log in to the app. This App has many features, firstly, you can add products (including image) to the database, then you can edit, delete or view the details of the product, you also have to create a profile when registering and then you can edit your profile too, you can update your name, bio, image and password too. If you don't want to sign up, You can use this credentials to log in(since some products are already added and you can check  how the app works): Email - 'user1@email.io', Password: 'user1password'. but you can sign up with any made up email. Then you can use website for Inventory management.",
-    stack: 'React, Node.js, Express.js, MongoDB',  
+      "This App was part of my MERN stack course. This is a Full-Stack Inventory Management App with authentication feature, front-end is created with react, backend with node.js and express and I'm using MongoDB as a database. You first need to sign up or log in to the app. This App has many features, firstly, you can add products (including image) to the database, then you can edit, delete or view the details of the product, you also have to create a profile when registering and then you can edit your profile too, you can update your name, bio, image and password too. If you don't want to sign up, You can use this credentials to log in(since some products are already added and you can check  how the app works): Email - 'user1@email.io', Password: 'user1password'. but you can sign up with any made up email. Then you can use website for Inventory management.",
+    stack: 'MERN, redux-toolkit',  
     website: 'https://inv-man-app-front.vercel.app/',
     code: 'https://github.com/luka0009/Full-Stack-Inventory-Management-App',
   },
@@ -39,10 +40,20 @@ export const projects = [
     image: 'https://cdn-icons-png.flaticon.com/512/5900/5900198.png',
     name: "Book E-commerce website",
     description:
-      "Description of this application is available on 'about' page of this web app",
+      "Description of this application is available on 'about' page of this app",
     stack: 'React, Typescript, Bootsrap',  
     website: 'https://react-ts-bootstrap.vercel.app/',
     code: 'https://github.com/luka0009/React-ts-bootstrap',
+  },
+  {
+    id: 103,
+    image: finances,
+    name: "Financial Management App",
+    description:
+      "MERN stack app built with RTK query and Tailwind css, you can manage your expenses, incomes and investemnts here. the app has CRUD functioanlity and graphical visualization",
+    stack: 'MERN, RTK-Query, Tailwind, chart.js',  
+    website: 'https://budget-front-nine.vercel.app/',
+    code: 'https://github.com/luka0009/Budget-front',
   },
   {
     id: 1,
