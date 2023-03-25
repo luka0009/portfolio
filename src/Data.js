@@ -20,7 +20,9 @@ export const projects = [
     image: carlist,
     name: "Advanced Full Stack App",
     description:
-      "This App was part of my MERN stack course. This is a Full-Stack Inventory Management App with authentication feature, front-end is created with react, backend with node.js and express and I'm using MongoDB as a database. You first need to sign up or log in to the app. This App has many features, firstly, you can add products (including image) to the database, then you can edit, delete or view the details of the product, you also have to create a profile when registering and then you can edit your profile too, you can update your name, bio, image and password too. If you don't want to sign up, You can use this credentials to log in(since some products are already added and you can check  how the app works): Email - 'user1@email.io', Password: 'user1password'. but you can sign up with any made up email. Then you can use website for Inventory management.",
+      `WARNING: THE APP WILL TAKE ABOUT A MINUTE TO LOAD, SINCE THE BACKEND IS DEPLOYED WITH A FREE PLAN AND DOESN'T WORK FULLY EFFICIENTLY -  
+      
+      This App was part of my MERN stack course. This is a Full-Stack Inventory Management App with authentication feature, front-end is created with react, backend with node.js and express and I'm using MongoDB as a database. You first need to sign up or log in to the app. This App has many features, firstly, you can add products (including image) to the database, then you can edit, delete or view the details of the product, you also have to create a profile when registering and then you can edit your profile too, you can update your name, bio, image and password too. If you don't want to sign up, You can use this credentials to log in(since some products are already added and you can check  how the app works): Email - 'user1@email.io', Password: 'user1password'. but you can sign up with any made up email. Then you can use website for Inventory management.`,
     stack: 'MERN, redux-toolkit',  
     website: 'https://inv-man-app-front.vercel.app/',
     code: 'https://github.com/luka0009/Full-Stack-Inventory-Management-App',
@@ -30,7 +32,7 @@ export const projects = [
     image: fitness,
     name: "MERN App - Workout management",
     description:
-      "Full stack App MERN App with authentication, front-end is created with react, backend with node.js and express and I'm using MongoDB as a database. You first need to sign up or log in. If you don't want to sign up, You can use this credentials to log in: Email - 'user1@luka.dev', Password: 'MernStack12!'. but you can sign up with any made up email. Then you can use website for workout management.",
+      "WARNING: THE APP WILL TAKE ABOUT A MINUTE TO LOAD, SINCE THE BACKEND IS DEPLOYED WITH A FREE PLAN AND DOESN'T WORK FULLY EFFICIENTLY - Full stack App MERN App with authentication, front-end is created with react, backend with node.js and express and I'm using MongoDB as a database. You first need to sign up or log in. If you don't want to sign up, You can use this credentials to log in: Email - 'user1@luka.dev', Password: 'MernStack12!'. but you can sign up with any made up email. Then you can use website for workout management.",
     stack: 'React, Node.js, Express.js, MongoDB',  
     website: 'https://mern-workouts-app.vercel.app/',
     code: 'https://github.com/luka0009/MERN---Workouts',
@@ -50,7 +52,7 @@ export const projects = [
     image: finances,
     name: "Financial Management App",
     description:
-      "MERN stack app built with RTK query and Tailwind css, you can manage your expenses, incomes and investemnts here. the app has CRUD functioanlity and graphical visualization",
+      "WARNING: THE APP WILL TAKE ABOUT A MINUTE TO LOAD, SINCE THE BACKEND IS DEPLOYED WITH A FREE PLAN AND DOESN'T WORK FULLY EFFICIENTLY - MERN stack app built with RTK query and Tailwind css, you can manage your expenses, incomes and investemnts here. the app has CRUD functioanlity and graphical visualization",
     stack: 'MERN, RTK-Query, Tailwind, chart.js',  
     website: 'https://budget-front-nine.vercel.app/',
     code: 'https://github.com/luka0009/Budget-front',
