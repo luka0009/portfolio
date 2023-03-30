@@ -64,8 +64,8 @@ export const projects = [
     description:
       "WARNING: THE APP WILL TAKE ABOUT A MINUTE TO LOAD, SINCE THE BACKEND IS DEPLOYED WITH A FREE PLAN AND DOESN'T WORK FULLY EFFICIENTLY - MERN stack app built with RTK query and Tailwind css, you can manage your expenses, incomes and investemnts here. the app has CRUD functioanlity and graphical visualization",
     stack: 'MERN, RTK-Query, Tailwind, chart.js',  
-    website: 'https://budget-front-nine.vercel.app/',
-    code: 'https://github.com/luka0009/Budget-front',
+    website: 'https://bufget-fron2.vercel.app/',
+    code: 'https://bufget-fron2.vercel.app/',
   },
   {
     id: 1,
