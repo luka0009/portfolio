@@ -28,16 +28,6 @@ export const projects = [
     code: 'https://github.com/luka0009/Full-Stack-Inventory-Management-App',
   },
   {
-    id: 102,
-    image: fitness,
-    name: "MERN App - Workout management",
-    description:
-      "WARNING: THE APP WILL TAKE ABOUT A MINUTE TO LOAD, SINCE THE BACKEND IS DEPLOYED WITH A FREE PLAN AND DOESN'T WORK FULLY EFFICIENTLY - Full stack App MERN App with authentication, front-end is created with react, backend with node.js and express and I'm using MongoDB as a database. You first need to sign up or log in. If you don't want to sign up, You can use this credentials to log in: Email - 'user1@luka.dev', Password: 'MernStack12!'. but you can sign up with any made up email. Then you can use website for workout management.",
-    stack: 'React, Node.js, Express.js, MongoDB',  
-    website: 'https://mern-workouts-app.vercel.app/',
-    code: 'https://github.com/luka0009/MERN---Workouts',
-  },
-  {
     id: 1002,
     image: 'https://cdn-icons-png.flaticon.com/512/225/225932.png',
     name: "Full stack - Community library",
@@ -46,6 +36,16 @@ export const projects = [
     stack: 'MERN, tailwind, Bootstrap, RTK-query',  
     website: 'https://lib-front.vercel.app/',
     code: 'https://github.com/luka0009/MERN-libraray-2',
+  },
+  {
+    id: 102,
+    image: fitness,
+    name: "MERN App - Workout management",
+    description:
+      "WARNING: THE APP WILL TAKE ABOUT A MINUTE TO LOAD, SINCE THE BACKEND IS DEPLOYED WITH A FREE PLAN AND DOESN'T WORK FULLY EFFICIENTLY - Full stack App MERN App with authentication, front-end is created with react, backend with node.js and express and I'm using MongoDB as a database. You first need to sign up or log in. If you don't want to sign up, You can use this credentials to log in: Email - 'user1@luka.dev', Password: 'MernStack12!'. but you can sign up with any made up email. Then you can use website for workout management.",
+    stack: 'React, Node.js, Express.js, MongoDB',  
+    website: 'https://mern-workouts-app.vercel.app/',
+    code: 'https://github.com/luka0009/MERN---Workouts',
   },
   {
     id: 103,
