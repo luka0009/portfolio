@@ -35,7 +35,7 @@ export const projects = [
       "WARNING: THE APP WILL TAKE ABOUT A MINUTE TO LOAD, SINCE THE BACKEND IS DEPLOYED WITH A FREE PLAN AND DOESN'T WORK FULLY EFFICIENTLY - Full stack App MERN App with authentication, front-end is created with react, backend with node.js and express and I'm using MongoDB as a database. You can visit website and see all the books, but if you want to unlock all the features (like editing books) you have to log in. You can user 'user1@email.io' and 'user1password' to log in. or you can sign up with other credentials.",
     stack: 'MERN, tailwind, Bootstrap, RTK-query',  
     website: 'https://lib-front.vercel.app/',
-    code: 'https://github.com/luka0009/MERN-libraray-2',
+    code: 'https://github.com/luka0009/Lib-Front/tree/main',
   },
   {
     id: 102,

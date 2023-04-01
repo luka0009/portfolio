@@ -53,6 +53,11 @@ export const skills = [
         name: "Redux",
     },
     {
+        id: 107,
+        image: 'https://files.raycast.com/4dnlt8m2mcb98bzc4zb8pggc4csi',
+        name: "Next.js",
+    },
+    {
         id: 8,
         image: tailwind,
         name: "tailwind",
