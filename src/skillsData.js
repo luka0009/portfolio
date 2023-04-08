@@ -68,6 +68,11 @@ export const skills = [
         name: "Bootstrap",
     },
     {
+        id: 101,
+        image: 'https://mui.com/static/logo.png',
+        name: "MUI",
+    },
+    {
         id: 10,
         image: npm,
         name: "npm",
