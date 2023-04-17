@@ -16,18 +16,22 @@ export default function About() {
   return (
     <div className="z-1 text-white bg-[#1F0A3A]">
       <br />
-      <span className="ml-44 text-[44px]">About Me</span>
+      <span className="ml-64 text-[34px]">About Me</span>
       <div className="lg:mt-[-88px] flex flex-wrap justify-between items-center">
-        <div className="text-div m-4 p-5 w-[650px] text-2xl">
-          I am passionate junior Web developer with a desire to learn and
+        <div className="text-div m-4 ml-12 mt-24 p-5 w-[650px] text-lg">
+          {/* I am passionate junior Web developer with a desire to learn and
           grow in a collaborative team environment. I'm Skilled in various
           programming languages and technologies <span onClick={handleClick} className="cursor-pointer text-[22px] underline font-bold">( see the list below )</span>. I Excel at creating
           pixel-perfect designs, Websites with diverse functionality and working with cross-browser compatibility
-          issues.
+          issues. */}
+          I am passionate Frontend/Full Stack Developer Web developer with a desire to learn and grow in a collaborative team environment. I'm Skilled in various programming languages and technologies, mostly in Javascript language, especyally in react and its ecosystem.
+          <br />
+          <br />
+          As a web developer, I have had the opportunity to develop and architect solutions for web projects using modern JavaScript frameworks while adhering to industry best practices and standards. I have experience in both frontend architecture and development of client web applications and websites, as well as full-stack applications using the MERN stack.
         </div>
         <div className="image-div lg:ml-[-300px]">
           <img
-            className="contrast-150 mr-[-30px] mt-[-30px] mb-[20px] w-[530px] h-[420px] m-10 object-contain"
+            className="contrast-150 mr-[-5px] mt-[-30px] mb-[20px] w-[530px] h-[420px] m-10 object-contain"
             src={image}
             alt=""
           />
