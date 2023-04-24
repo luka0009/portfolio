@@ -24,10 +24,10 @@ export default function About() {
           programming languages and technologies <span onClick={handleClick} className="cursor-pointer text-[22px] underline font-bold">( see the list below )</span>. I Excel at creating
           pixel-perfect designs, Websites with diverse functionality and working with cross-browser compatibility
           issues. */}
-          I am passionate Frontend/Full Stack Developer Web developer with a desire to learn and grow in a collaborative team environment. I'm Skilled in various programming languages and technologies, mostly in Javascript language, especyally in react and its ecosystem.
+          I am passionate Frontend/Full Stack Developer Web developer with a desire to learn and grow in a collaborative team environment. I'm Skilled in various programming languages and technologies, mostly in Javascript language, especially in react and its ecosystem.
           <br />
           <br />
-          As a web developer, I have had the opportunity to develop and architect solutions for web projects using modern JavaScript frameworks while adhering to industry best practices and standards. I have experience in both frontend architecture and development of client web applications and websites, as well as full-stack applications using the MERN stack.
+          As a web developer, I have had the opportunity to develop and architect solutions for web projects using modern JavaScript frameworks while adhering to industry best practices and standards. I have experience in both frontend architecture and development of client web applications and websites, as well as full-stack applications using the MERN stack and NextJS.
         </div>
         <div className="image-div lg:ml-[-300px]">
           <img
