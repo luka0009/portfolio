@@ -98,6 +98,11 @@ export const skills = [
         name: "MongoDB/Mongoose",
     },
     {
+        id: 1412,
+        image: 'https://i.pinimg.com/originals/39/b2/e4/39b2e4ad77c23a2c11e5950a7dfa2aec.png',
+        name: "Prisma",
+    },
+    {
         id: 15,
         image: MySQL,
         name: "SQL/MySQL",

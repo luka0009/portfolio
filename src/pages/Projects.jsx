@@ -11,6 +11,7 @@ export default function Projects() {
       <br />
       Personal Projects 
       </span>
+      {/* <p className='text-rose-600 text-[33px] mt-5'>Warning: MERN apps will take about a minute to load</p> */}
       </div>
      <hr className='mt-7 -mb-6'/>
       <div className='projects-div mx-[50px] my-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-24 gap-y-24'>
