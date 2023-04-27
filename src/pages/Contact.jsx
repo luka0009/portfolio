@@ -27,28 +27,28 @@ export default function Contact() {
   const nextImage = () => {
     setIsAnimating(true);
     setTimeout(() => {
-      if (index >= 2) {
+      if (index >= 1) {
         setIndex(-1);
       }
       setIndex((index) => index + 1);
-    }, [1000]);
+    }, [450]);
     setTimeout(() => {
       setIsAnimating(false);
-    }, [1000]);
+    }, [450]);
   };
 
   const prevImage = () => {
     setIsAnimating(true);
     setTimeout(() => {
       if (index <= 0) {
-        setIndex(3);
+        setIndex(2);
       }
       setIndex((index) => index - 1);
-    }, [1000]);
+    }, [450]);
 
     setTimeout(() => {
       setIsAnimating(false);
-    }, [1000]);
+    }, [450]);
   };
 
   const copyToClipboard = (content) => {
@@ -93,7 +93,7 @@ export default function Contact() {
         // transition={{ duration: 1 }}
         initial={{ opacity: 1 }}
         animate={isAnimating ? { opacity: 0 } : { opacity: 1 }} // Conditionally set animate property based on isAnimating state
-        transition={{ duration: 1 }}
+        transition={{ duration: 0.45 }}
         className="mx-auto h-[350px] w-[40vw] flex flex-col items-center justify-center"
       >
         <div className="z-1 bg-[#1A0B2E] text-blue-600 relative mx-auto p-24 border-2 border-blue-600 h-[250px] w-[40vw] flex items-center justify-center">
