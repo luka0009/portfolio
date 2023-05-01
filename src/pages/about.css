@@ -1,9 +1,9 @@
 .image-div {
-  animation: fadeIn 6s ease-in-out;
+  animation: fadeIn 3s ease-in-out;
 }
 
 .content-div {
-  animation: fadeIn 3s ease-in-out;
+  animation: fadeIn 1s ease-in-out;
 }
 
 @keyframes fadeIn {

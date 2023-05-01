@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
-import {useClickAway} from 'react-use';
-
+import { useClickAway } from "react-use";
+import { motion } from "framer-motion";
 
 export default function Project({ project }) {
   const [isMouseOver, setIsMouseOver] = useState(false);
@@ -12,10 +12,17 @@ export default function Project({ project }) {
   });
 
   function clickAlert() {
-    alert('\nNot Yet deployed.\n\nCheck out the code on Github.');
+    alert("\nNot Yet deployed.\n\nCheck out the code on Github.");
   }
+
+  const initialPosition = project.id % 2 === 0 ? { x: 500 } : { x: -500 };
+
   return (
-    <div>
+    <motion.div
+    style={initialPosition}
+    animate={{ x: 0 }}
+    transition={{ duration: 1 }}
+    >
       <div className="text-[24px] text-white flex flex-col justify-start items-center gap-3">
         <span className="font-semibold mb-6 text-3xl">{project.name}</span>
         <div
@@ -31,12 +38,20 @@ export default function Project({ project }) {
           />
           {isMouseOver && (
             <span className="text-center underline w-full contrast-150 px-4 py-1 cursor-pointer absolute bg-slate-800 text-cyan-500 top-0">
-              {project.website !== 'Not Yet Deployed' ? <a target='_blank' href={project.website}>See Website</a> : <button onClick={clickAlert}>See Website</button>}
+              {project.website !== "Not Yet Deployed" ? (
+                <a target="_blank" href={project.website}>
+                  See Website
+                </a>
+              ) : (
+                <button onClick={clickAlert}>See Website</button>
+              )}
             </span>
           )}
           {isMouseOver && (
             <span className="text-center underline w-full contrast-150 px-4 py-1 cursor-pointer absolute bg-slate-800 text-cyan-500  bottom-0">
-              <a href={project.code} target='_blank'>Source Code</a>
+              <a href={project.code} target="_blank">
+                Source Code
+              </a>
             </span>
           )}
           {isMouseOver && (
@@ -48,13 +63,15 @@ export default function Project({ project }) {
             </span>
           )}
           {isClicked && (
-            <div ref={ref} className="text-left text-sm md:text-xl absolute flex flex-col justify-start w-[450px] h-fit max-h-[480px] overflow-y-auto z-99 bg-slate-800 text-cyan-500 p-5">
+            <div
+              ref={ref}
+              className="text-left text-sm md:text-xl absolute flex flex-col justify-start w-[450px] h-fit max-h-[480px] overflow-y-auto z-99 bg-slate-800 text-cyan-500 p-5"
+            >
               <button
                 onClick={() => {
                   setIsClicked(false);
                   setIsMouseOver(false);
-                  }
-                }
+                }}
                 className="bg-red-600 text-white w-[30px]"
               >
                 X
@@ -71,6 +88,6 @@ export default function Project({ project }) {
           </span>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
