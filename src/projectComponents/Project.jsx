@@ -26,12 +26,12 @@ export default function Project({ project }) {
       <div className="text-[24px] text-white flex flex-col justify-start items-center gap-3">
         <span className="font-semibold mb-6 text-3xl">{project.name}</span>
         <div
-          className="relative cursor-pointer flex flex-col justify-start items-center"
+          className="relative cursor-pointer flex flex-col justify-start items-center min-h-[800px] min-w-[300px]"
           onMouseOver={() => setIsMouseOver(true)}
           onMouseLeave={() => setIsMouseOver(false)}
         >
           <img
-            className={`object-cover transition duration-1000 md:w-[250px] md:h-[240px] border-2 p-1 py-3 
+            className={`object-cover transition duration-1000 w-full h-full md:w-[250px] md:h-[240px] border-2 p-1 py-3 
             ${isMouseOver && "opacity-40"} rounded-md`}
             src={project.image}
             alt={project.name}

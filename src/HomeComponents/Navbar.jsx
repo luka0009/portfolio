@@ -3,12 +3,15 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <div className="z-99 flex justify-between items-center py-5 px-4 mb-0 inset-0 bg-[#1A0B2E] shadow-sm text-white text-md md:text-xl">
-      <Link to="/">
-      <div className="cursor-pointer"> Luka Barbakadze </div>
-      </Link>
-      <div className="flex justify-center gap-4">
-        <Link to='/'>
+    <div className="bg-[#1A0B2E] w-full h-fit py-5 px-4 text-white flex justify-between items-center text-sm sm:text-base md:text-lg">
+      <div className="hidden md:block">
+        <Link to="/">Luka Barbakadze</Link>
+      </div>
+      <div className="block md:hidden">
+        <Link to="/">Luka</Link>
+      </div>
+      <div className="flex justify-center items-center gap-3">
+        <Link to="/">
           <span className="cursor-pointer">Home</span>
         </Link>
         <Link to="/about">

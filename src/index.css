@@ -2,9 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body, html, :root {
+    height: 100%;
+}
 
-@layer base {
-    body {
-        @apply bg-[#1A0B2E];
-    }  
+body {
+    background: #1F0A3A;
 }
