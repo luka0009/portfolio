@@ -26,7 +26,7 @@ export default function Project({ project }) {
       <div className="text-[24px] text-white flex flex-col justify-start items-center gap-3">
         <span className="font-semibold mb-6 text-3xl">{project.name}</span>
         <div
-          className="relative cursor-pointer flex flex-col justify-start items-center min-h-[800px] min-w-[300px]"
+          className="relative cursor-pointer flex flex-col justify-start items-center"
           onMouseOver={() => setIsMouseOver(true)}
           onMouseLeave={() => setIsMouseOver(false)}
         >
