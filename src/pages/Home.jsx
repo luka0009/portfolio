@@ -1,9 +1,30 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import image1 from "../assets/Web-Developer-skill-removebg-preview.png";
 import TypedText from "../HomeComponents/TypedText";
 import './home.css';
+import { redirect } from "react-router-dom";
 
 export default function Home() {
+  const [redirect, setRedirect] = useState(true);
+  // useEffect(() => {
+  //   window.location.replace('https://portfolio-website-luka0009.vercel.app/');
+  // }, []);
+  if(redirect) {
+    return (
+     <>
+      <div className="relative h-screen w-screen bg-[#1F0A3A] bg-black flex justify-center items-center">
+        <div className="text-white text-xl">
+          <p>If you are looking for luka barbakadze's portfolio website
+            <br />  
+            You might have an old link!
+            <span className="text-sky-500 text-xl mx-1"><a className="underline" href="https://portfolio-website-luka0009.vercel.app/">Visit Portfolio Here</a></span>
+            </p>
+          <p></p>
+        </div>
+      </div>
+     </> 
+    )
+  }
   return (
     // bg-[#1A0B26]
     <div className="bg-[#1F0A3A]  w-[100vw] min-h-[88vh] overflow-hidden">
